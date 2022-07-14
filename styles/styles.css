@@ -3,7 +3,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -11,7 +11,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -19,7 +19,7 @@
     font-family: "Playfair Display-Bold";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+    src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -27,7 +27,7 @@
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/PlayfairDisplay-Regular.woff2") format("woff2");
+    src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -35,7 +35,7 @@
     font-family: "Playfair Display Medium";
     font-style: normal;
     font-weight: 500;
-    src: url("/fonts/PlayfairDisplay-Medium.ttf") format("ttf");
+    src: url("../fonts/PlayfairDisplay-Medium.ttf") format("ttf");
     font-display: swap;
 }
 
@@ -122,7 +122,7 @@ body {
     height: 1087px;
     margin: 0 40px;
     background-color: #71d0fe;
-    background-image: url(/images/conder-main.png);
+    background-image: url(../images/conder-main.png);
     background-position: bottom;
     background-repeat: no-repeat;
 }
