@@ -1,0 +1,320 @@
+/* шрифты */
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/PlayfairDisplay-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Playfair Display Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/fonts/PlayfairDisplay-Medium.ttf") format("ttf");
+    font-display: swap;
+}
+
+/* Страница */
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-width: 1000px;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "PT Sans";
+    font-size: 26px;
+    line-height: 32px;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 41px 18px 40px;
+    height: 50px;
+}
+
+.navigation-logo {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 163px;
+}
+
+.navigation-logo-icon {
+    display: inline-block;
+}
+
+.navigation-page-link {
+    text-decoration: none;
+    color: #000000;
+    padding: 9px 0;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 31px;
+    height: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.navigation-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links-conders,
+.navigation-links-shops,
+.navigation-links-contacts {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 50px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #000000;
+    padding: 9px 0;
+}
+
+.main-position {
+    width: 920px;
+    height: 1087px;
+    margin: 0 40px;
+    background-color: #71d0fe;
+    background-image: url(/images/conder-main.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    margin: 0;
+}
+
+.main-position h1 {
+    font-family: "Playfair Display Medium";
+    font-size: 128px;
+    line-height: 115px;
+    font-weight: 500;
+    padding: 52px 50px 40px;
+    color: #000000;
+}
+
+.main-position p {
+    padding: 0 50px;
+    font-size: 32px;
+    line-height: 41px;
+    margin: 0;
+}
+
+.main-properties h2 {
+    font-family: "Playfair Display Medium";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 73px 95px 41px 510px;
+}
+
+.conder-block {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 24px;
+    margin-right: auto;
+}
+
+.conder-picture {
+    margin-top: -50px;
+}
+
+.properties {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.properties p {
+    margin-bottom: 40px;
+    line-height: 34px;
+    margin-top: 0;
+}
+
+.icons {
+    width: 47px;
+}
+
+.power-icon {
+    position: absolute;
+    top: 6px;
+    left: 487px;
+}
+
+.lock-icon {
+    position: absolute;
+    top: 148px;
+    left: 487px;
+}
+
+.volume-icon {
+    position: absolute;
+    top: 324px;
+    left: 487px;
+}
+
+.mobil-icon {
+    position: absolute;
+    top: 501px;
+    left: 487px;
+}
+
+.main-addition {
+    position: relative;
+    width: 920px;
+    height: 365px;
+    background-color: #71d0fe;
+    margin: 76px 40px 0;
+}
+
+.addition-title {
+    font-family: "Playfair Display Medium";
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    padding-top: 26px;
+    padding-left: 53px;
+    margin: 0;
+}
+
+.main-addition p {
+    padding-left: 53px;
+    margin: 0;
+    margin-top: 11px;
+    line-height: 34px;
+}
+
+.tube-image {
+    position: absolute;
+    top: -245px;
+    right: -40px;
+}
+
+.button {
+    font-family: "PT Sans";
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 700;
+    box-sizing: border-box;
+    width: 390px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    background-color: #4070ea;
+    color: #fdfdfd;
+    padding: 15px 44px 19px;
+    margin: 156px 305px 144px 305px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0b4cf1;
+}
+
+.footer {
+    margin: 0 40px 40px 40px;
+}
+
+.hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+.adress {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.adress-name {
+    display: block;
+}
+
+.adress-position {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    margin-left: 79px;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.vk-link,
+.odnoklassniki-link,
+.telegram-link {
+    display: inline-block;
+    height: 39px;
+    margin-left: 8px;
+}
+
+.social-link-vk,
+.social-link-odnoklassniki,
+.social-link-telegram {
+    height: 39px;
+}
